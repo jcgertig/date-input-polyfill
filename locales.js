@@ -211,7 +211,34 @@ const locales = {
       `November`,
       `December`
     ]
-  }
+  },
+   /* Spanish */
+    'es-es': {
+        days: [
+            `Dom`,
+            `Lun`,
+            `Mar`,
+            `Mie`,
+            `Jue`,
+            `Vie`,
+            `Sab`
+        ],
+        months: [
+            `Enero`,
+            `Febrero`,
+            `Marzo`,
+            `Abril`,
+            `Mayo`,
+            `Junio`,
+            `Julio`,
+            `Agosto`,
+            `Septiembre`,
+            `Octubre`,
+            `Noviembre`,
+            `Diciembre`
+        ],
+        today: `Hoy`
+    }
 };
 
 export default locales;
