@@ -33,6 +33,8 @@ document.addEventListener(`DOMContentLoaded`, () => {
 
 // This is also on mousedown event so it will capture new inputs that might
 // be added to the DOM dynamically.
-document.querySelector(`body`).addEventListener(`mousedown`, () => {
-  addPickers();
-});
+if (document.body) {
+  document.querySelector(`body`).addEventListener(`mousedown`, () => {
+    addPickers();
+  });
+}
