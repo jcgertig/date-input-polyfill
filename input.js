@@ -86,14 +86,14 @@ export default class Input {
         default:
           break;
       }
-
-      thePicker.sync();
-    });
-
-    this.element.addEventListener(`keyup`, e => {
-      thePicker.sync();
     });
   }
+
+  // when used in a single-page app,
+  // hide datepicker when the browser's back button is pressed
+  this.element.addEventListener("hashchange", () => {
+    thePicker.hide();
+  })
 
   getLocaleText() {
     const locale = this.locale.toLowerCase();

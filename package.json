@@ -1,6 +1,6 @@
 {
-  "name": "date-input-polyfill",
-  "version": "2.13.0",
+  "name": "@coverhound/date-input-polyfill",
+  "version": "2.14.0",
   "description": "Automatically adds datepickers to input[type=date] on IE, Firefox, and OS X Safari.",
   "main": "date-input-polyfill.dist.js",
   "contributors": [
@@ -10,17 +10,20 @@
     },
     {
       "name": "Jonathan Gertig",
-      "email": "jcgertig@gmail.com"
+      "email": "jgertig@gmail.com"
     },
     {
       "name": "Pierre Klink"
+    },
+    {
+      "name": "Kyle Alwyn"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jcgertig/date-input-polyfill.git"
+    "url": "git://github.com/coverhound/date-input-polyfill.git"
   },
-  "bugs": "https://github.com/jcgertig/date-input-polyfill/issues",
+  "bugs": "https://github.com/coverhound/date-input-polyfill/issues",
   "keywords": [
     "html5",
     "light",
@@ -48,11 +51,14 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
-    "babel-runtime": "^6.11.6"
+    "babel-runtime": "^6.11.6",
+    "np": "^2.15.0"
   },
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server",
-    "start-c9": "./node_modules/.bin/webpack-dev-server --host $IP --port $PORT",
-    "build": "./node_modules/.bin/webpack --devtool=none --optimize-minimize --optimize-occurence-order --optimize-dedupe"
+    "start": "webpack-dev-server",
+    "start-c9": "webpack-dev-server --host $IP --port $PORT",
+    "build": "webpack --devtool=none --optimize-minimize --optimize-occurence-order --optimize-dedupe",
+    "release": "np --yolo",
+    "version": "npm run build && git add date-input-polyfill.dist.js"
   }
 }
