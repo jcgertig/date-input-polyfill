@@ -243,6 +243,118 @@ const locales = {
     today: `Hoy`,
     format: `D/M/Y`
   },
+  /* Danish */
+  'da_da-dk': {
+    days: [
+      `Søndag`,
+      `Mandag`,
+      `Tirsdag`,
+      `Onsdag`,
+      `Torsdag`,
+      `Fredag`,
+      `Lørdag`
+    ],
+    months: [
+      `Januar`,
+      `Februar`,
+      `Marts`,
+      `April`,
+      `Maj`,
+      `Juni`,
+      `Juli`,
+      `August`,
+      `September`,
+      `Oktober`,
+      `November`,
+      `December`
+    ],
+    today: `I dag`,
+    format: `dd/MM-YYYY`
+  },
+  /* Russian */
+  'ru_ru-RU_ru-UA_ru-KZ_ru-MD': {
+    days: [
+      `Вс`,
+      `Пн`,
+      `Вт`,
+      `Ср`,
+      `Чт`,
+      `Пт`,
+      `Сб`
+    ],
+    months: [
+      `Январь`,
+      `Февраль`,
+      `Март`,
+      `Апрель`,
+      `Май`,
+      `Июнь`,
+      `Июль`,
+      `Август`,
+      `Сентябрь`,
+      `Октябрь`,
+      `Ноябрь`,
+      `Декабрь`
+    ],
+    today: `Сегодня`,
+    format: `D.M.Y`
+  },
+  /* Ukrainian */
+  'uk_uk-UA': {
+    days: [
+      `Нд`,
+      `Пн`,
+      `Вт`,
+      `Ср`,
+      `Чт`,
+      `Пт`,
+      `Сб`
+    ],
+    months: [
+      `Січень`,
+      `Лютий`,
+      `Березень`,
+      `Квітень`,
+      `Травень`,
+      `Червень`,
+      `Липень`,
+      `Серпень`,
+      `Вересень`,
+      `Жовтень`,
+      `Листопад`,
+      `Грудень`
+    ],
+    today: `Cьогодні`,
+    format: `D.M.Y`
+  },
+  /* Swedish (Sweden) */
+    'sv_sv-SE': {
+        days: [
+            `Söndag`,
+            `Måndag`,
+            `Tisdag`,
+            `Onsdag`,
+            `Torsdag`,
+            `Fredag`,
+            `Lördag`
+        ],
+        months: [
+            `Januari`,
+            `Februari`,
+            `Mars`,
+            `April`,
+            `Maj`,
+            `Juni`,
+            `Juli`,
+            `Augusti`,
+            `September`,
+            `Oktober`,
+            `November`,
+            `December`
+        ],
+        today: `Idag`,
+        format: `YYYY-MM-dd`
+    },
   'test_test-TEST': {
     days: [
       `Foo`,
@@ -267,6 +379,33 @@ const locales = {
       `November`,
       `December`
     ]
+  },
+  'ja': {
+    days: [
+      `日`,
+      `月`,
+      `火`,
+      `水`,
+      `木`,
+      `金`,
+      `土`
+    ],
+    months: [
+      `一月`,
+      `二月`,
+      `三月`,
+      `四月`,
+      `五月`,
+      `六月`,
+      `七月`,
+      `八月`,
+      `九月`,
+      `十月`,
+      `十一月`,
+      `十二月`
+    ],
+    today: `今日`,
+    format: `YYYY-MM-dd`
   }
 };
 
