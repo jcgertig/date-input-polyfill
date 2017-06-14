@@ -130,7 +130,9 @@ const locales = {
       `Oktober`,
       `November`,
       `Dezember`
-    ]
+    ],
+    today: `Heute`,
+    format: `DD.MM.YYYY`
   },
   /* Dutch */
   'nl_nl-NL_nl-BE': {
