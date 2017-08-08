@@ -1,9 +1,16 @@
-import thePicker from './picker.js';
 import locales from './locales.js';
 import dateFormat from './dateformat.js';
+import Picker from './picker.js';
+
+// This is a singleton.
+let thePicker;
 
 export default class Input {
   constructor(input) {
+    if (!thePicker) {
+      thePicker = new Picker();
+    }
+
     this.element = input;
     this.element.setAttribute(`data-has-picker`, ``);
 

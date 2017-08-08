@@ -1,10 +1,5 @@
 class Picker {
   constructor() {
-    // This is a singleton.
-    if(window.thePicker) {
-      return window.thePicker;
-    }
-
     this.date = new Date();
     this.input = null;
     this.isOpen = false;
@@ -329,6 +324,4 @@ class Picker {
   }
 }
 
-window.thePicker = new Picker();
-
-export default window.thePicker;
+export default Picker;
