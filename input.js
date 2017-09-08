@@ -18,6 +18,8 @@ export default class Input {
       || document.body.getAttribute(`data-date-format`)
       || `yyyy-mm-dd`;
 
+    this.element.setAttribute('placeholder', this.format);
+
     this.localeText = this.getLocaleText();
 
     Object.defineProperties(

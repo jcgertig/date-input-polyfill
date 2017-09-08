@@ -21,3 +21,8 @@ document.addEventListener(`DOMContentLoaded`, () => {
 document.querySelector(`body`).addEventListener(`mousedown`, () => {
   addPickers();
 });
+
+// Run the above code after a custom event has fired
+document.querySelector(`body`).addEventListener(`addDateInputPolyfillPickers`, () => {
+  addPickers();
+});
