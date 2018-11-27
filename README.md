@@ -15,7 +15,7 @@ Add to your project:
     or alongside **Babel:** `import 'date-input-polyfill';`
 
 * **Script Tag:** Copy `date-input-polyfill.dist.js` from `node_modules` and
-include it anywhere in your HTML.
+include it at the bottom of your HTML body tag.
 
 * This package also supports **AMD**.
 
