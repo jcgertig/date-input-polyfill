@@ -1,6 +1,6 @@
 {
   "name": "date-input-polyfill",
-  "version": "2.14.0",
+  "version": "3.0.0",
   "description": "Automatically adds datepickers to input[type=date] on IE, Firefox, and OS X Safari.",
   "main": "date-input-polyfill.dist.js",
   "contributors": [
